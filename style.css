@@ -1,0 +1,272 @@
+<style>
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,100italic,300italic,400italic);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300);
+
+a {
+    margin: 0 10px 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.section {
+  padding-top: 20px;
+}
+
+#one {
+  color: #000;
+  background-color: #f7f7f7;
+}
+
+h1.one {
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  text-align: center;
+  font-style: none;
+  font-weight: bold;
+  margin-top: -2px;
+}
+
+h2.one {
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  text-align: center;
+  font-style: none;
+  font-style: italic;
+  margin-top:20px;
+}
+
+#two {
+  color: #999;
+  background-color: #fff;
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+h3.two {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  margin-bottom: 70px;
+  margin-top: -30px;
+  text-align: center;
+}
+
+h1.two {
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 40px;  
+}
+
+#three{
+  color: #000;
+  background-color: #19acca;
+  text-align: center;
+}
+
+h1.three {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+h1.three:after {
+  background-color: #fff;
+  width: 10px;
+  height: 10px;
+}
+
+h2.three {
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 0px;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+h3.three {
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 0px;
+}
+
+a.three {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  margin-right: 0px;
+  margin-left: 0px;
+
+}
+
+a.three2 {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  margin-right: 0px;
+  margin-left: 0px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+#four {
+  color: #999;
+  background-color: #f7f7f7;
+  margin-bottom: 0px;
+}
+
+h4.four {
+  margin-bottom: 0px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+a.heart {
+  margin: 0px 4px 0px 4px;
+  color: #e74c3c;
+}
+
+hr.style-one {
+    border: 0;
+      height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);
+  margin-bottom: 0px;
+  margin-top: -15px;
+}
+
+hr.style-two {
+    border: 0;
+      height: 1px;
+  margin: 0% 20% 0% 20%;
+    background: #fff;
+  margin-bottom: .1px;
+  margin-top: 10px;
+}
+
+hr.style-three {
+    border: 0;
+      height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.profile {
+  border: 3px solid #fff;
+    border-radius: 100px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,.3);
+  float:left;
+    height: 150px;
+  margin: 15px;
+  overflow: hidden;
+  width: 150px;
+  transition: .5s;
+}
+
+
+* { box-sizing: border-box; font-family: Avenir; }
+div#profile-container { display: flex; justify-content: space-between; }
+div#profile-container figure { 
+  display: inline-block;
+  }
+div#profile-container figure div {
+  border-radius: 50%;
+  overflow: hidden; 
+  background-blend-mode: luminosity;
+  background-color: black;
+  border: 5px solid #000;
+  width: 14rem; height: 14rem;
+  transition: .4s linear;
+}
+div#profile-container figure div:hover { 
+  border: 8px solid #f7f7f7;
+  background-color: transparent;
+}
+div#profile-container figcaption { 
+  margin-top: 1rem;
+  text-align: center; 
+}
+
+.cathy {
+  background: url(http://img.photobucket.com/albums/v461/_babyjustaskme_/775040f0-fccc-44f0-8c18-0ec6793fa9da.jpg) no-repeat center 
+    hsl(200,50%,50%);
+  background-size: cover;
+}
+
+.button {
+  positon: absolute;
+  padding: 10px 40px;
+  float: center;
+  border-radius: 10px;
+  font-size: 25px;
+  color: #FFF;
+  text-decoration: none;  
+  background-color: #2c3e50;
+  border-bottom: 5px solid #34495e;
+  text-shadow: 0px -2px #2c3e50;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  display: table;
+  margin: 0 auto;
+  margin-bottom: -3%;
+}
+
+.button:hover
+{
+  transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+}
+
+.button-contact {
+  positon: relative;
+  padding: 10px 40px;
+  border-radius: 10px;
+  font-size: 25px;
+  color: #000;
+  text-decoration: none;  
+  background-color: #e8edec;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  display: table;
+  margin: 0 auto;
+  margin-bottom: 3px;
+  text-shadow: 0px 0px #000;
+  border-bottom: 5px solid #f5faf9;
+}
+
+
+
+</style>
