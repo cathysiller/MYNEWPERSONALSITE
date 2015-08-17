@@ -1,0 +1,36 @@
+/*
+Error: Invalid CSS after "... "compass/css3"": expected "{", was ";"
+        on line 3 of /Users/cathy/Desktop/Website/MYNEWSITE/style.scss
+
+1: <style>
+2: 
+3: @import "compass/css3";
+4: 
+5: *,  *:before, *:after {
+6:   margin: 0; padding: 0;
+7:   box-sizing: border-box;
+8:   color: white;
+
+Backtrace:
+/Users/cathy/Desktop/Website/MYNEWSITE/style.scss:3
+/Users/cathy/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1162:in `expected'
+/Users/cathy/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1098:in `expected'
+/Users/cathy/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1093:in `tok!'
+/Users/cathy/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:638:in `block'
+/Users/cathy/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:632:in `ruleset'
+/Users/cathy/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:657:in `block_child'
+/Users/cathy/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:647:in `block_contents'
+/Users/cathy/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:117:in `stylesheet'
+/Users/cathy/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:42:in `parse'
+/Users/cathy/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:403:in `_to_tree'
+/Users/cathy/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:278:in `render'
+/Users/cathy/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:418:in `run'
+/Users/cathy/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Users/cathy/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
+/Users/cathy/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
+/Users/cathy/Downloads/CodeKit.app/Contents/Resources/engines/scss/bin/scss:13:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"... \"compass/css3\"\": expected \"{\", was \";\"\A         on line 3 of /Users/cathy/Desktop/Website/MYNEWSITE/style.scss\A \A 1: <style>\A 2: \A 3: @import \"compass/css3\";\A 4: \A 5: *,  *:before, *:after {\A 6:   margin: 0; padding: 0;\A 7:   box-sizing: border-box;\A 8:   color: white;"; }

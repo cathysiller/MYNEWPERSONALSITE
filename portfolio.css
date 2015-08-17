@@ -1,0 +1,56 @@
+<style>
+
+
+body{
+  background:white;
+}
+
+div{
+    font-size: 17px;
+    word-spacing: 10px;
+    font-family: Arial;
+    letter-spacing:.1em;
+    text-decoration: none;
+    margin-top: 50px; 
+    margin-left: 35px;
+}
+
+a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: #33CCCC;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #666699;
+}
+
+a:visited {
+  opacity: 0.6;
+}
+
+h1{
+  float: right;
+  margin-top: -55px;
+  font-size: 50px;
+  color: #666699;
+  word-spacing: 7px;
+  font-family: Arial;
+  letter-spacing:.1em;
+  text-decoration: none;
+  margin-right:35px;
+}
+
+h2{
+  text-align: center;
+  margin-top: 200px;
+  font-size: 70px;
+  color: #666699;
+  word-spacing: 7px;
+  font-family: Arial;
+  letter-spacing:.1em;
+  text-decoration: none;
+}
+
+</style>
