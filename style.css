@@ -56,16 +56,16 @@ h1 {
   margin-top: -90px;
   font-weight: 400;
   font-size: 4em;
-  font-size: 6vw;
+  font-size: 5.9vw;
   text-transform: uppercase;
   position: relative;
 }
 
 h2 {
-  margin-top: 10px;
+  margin-top: 4px;
   font-weight: 300;
-  font-size: 1.1em;
-  font-size: 1.5vw;
+  font-size: 1.0em;
+  font-size: 1.2vw;
 }
 
 .inner {
@@ -122,9 +122,3 @@ ul#images li img {
   display: block;
   border-radius: 5px;
 }
-
-
-
-
-
-
