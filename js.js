@@ -10,3 +10,6 @@ $('ul#images li').click(function(){
     var source = $(this).children('img').attr('src');
     $('.outer').css('background', 'url('+source+')');
 });
+
+
+

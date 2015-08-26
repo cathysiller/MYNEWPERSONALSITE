@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Arimo);
 
 
 *, *:before, *:after {
@@ -5,7 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   color: white;
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: 'Arimo', sans-serif;
 }
 
 html, body {
